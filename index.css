@@ -1,0 +1,129 @@
+ody {
+  font-family: "fantasy";
+  color: black;
+  margin:0;
+  background:cover;
+  background-image:url("https://raw.githubusercontent.com/imankaur/quizapp-module9/master/images%20quiz%20app/american%20flag.jpg");
+  background-color: #262626;
+}
+
+header {
+  margin-top: 25px;
+  height:50px;
+  color: beige;
+  margin-bottom: 55px;
+}
+
+.row {
+  max-width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+header h1 {
+  line-height: 1;
+  top:24px;
+  text-align: center;
+}
+
+header .question-and-score {
+  font-size: 15px;
+  font-weight: 50px;
+  color: white;
+  background: border-box;
+  background-color:black;
+  margin-left:300px;
+}
+
+.question-and-score ul {
+  text-align:right;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.question-and-score li {
+  display: inline-block;
+  padding:0 2%;
+}
+
+button {
+  margin-top:10px;
+  height: auto;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color:black;
+  background:aqua;
+  border: 0;
+  cursor: pointer;
+  margin-bottom: 0;
+  border-radius:3px;
+  padding: 10px 20px;
+}
+
+fieldset {
+  width:90%;
+  padding: 40px;
+  margin:0 auto;
+  background: lightcyan;
+  border-radius: 10px;
+}
+
+legend {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.question-form .question {
+  margin-bottom: 20px;
+  padding: 0 2%;
+  font-size: 20px;
+  font-weight: 600px;
+}
+
+.options ul {
+  list-style: none;
+  margin:0;
+  text-align:left;
+}
+
+label {
+  font-size:18px;
+}
+
+.options span {
+  display:block;
+  border-radius:5px;
+}
+
+.right-answer {
+ background:orchid;
+ padding: 10px 20px;
+ margin: 5px 20px;
+ border:2px solid black;
+}
+
+.wrong-answer {
+  background:gold;
+  padding: 10px;
+  margin: 5px 20px;
+  border:2px solid black;
+}
+
+.question-form button {
+  float:right;
+}
+
+button:hover:enabled,
+button:focus:enabled{
+  background-color: aqua;
+  -webkit-transition: background 0.1s;
+  -moz-transition: background 0.1s;
+  -o-transition: background 0.1s;
+  transition: background 0.1s;
+}
+
+button:disabled {
+  opacity:0.5;
+}
