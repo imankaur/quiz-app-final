@@ -1,10 +1,9 @@
-ody {
+body {
   font-family: "fantasy";
   color: black;
   margin:0;
   background:cover;
-  background-image:url("https://raw.githubusercontent.com/imankaur/quizapp-module9/master/images%20quiz%20app/american%20flag.jpg");
-  background-color: #262626;
+  background-image:url("flag.jpg");
 }
 
 header {
